@@ -19,4 +19,6 @@ Note: For windows we have a separate windows folder having batch files.
  ## Create Kafka topic using the below command
   kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic Kafka_Example
  
- kafka-console-consumer.bar --bootstrap-server localhost:9092 --topic Kafka_Example --from-beginning
+ # Kafka console consumer 
+ ## command to start kafka console consumer
+  kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic Kafka_Example --from-beginning
